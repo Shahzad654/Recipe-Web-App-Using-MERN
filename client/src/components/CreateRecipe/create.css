@@ -1,0 +1,51 @@
+.create_container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .create_container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create_container form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .create_container label {
+    font-weight: bold;
+    margin-top:  10px;
+
+  }
+  
+  .create_container input,
+  .create_container textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create_button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .create_button:hover {
+    background-color: #0056b3;
+  }
+  

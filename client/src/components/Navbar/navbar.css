@@ -1,0 +1,32 @@
+.navbar_container {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar_container h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav_link {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .nav_menu {
+        display: block;
+        padding-top: 0;
+    }
+
+    .nav_link {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
